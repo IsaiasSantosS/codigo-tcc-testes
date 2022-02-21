@@ -1,0 +1,7 @@
+<?php
+
+$palavras = [
+  'DENGUE', 'ZIKA', 'AGUA', 'TERRENO', 'MOSQUISTO', 'CHIKUNGUNYA',
+  'CASA', 'LIXO', 'LIXAO', 'PNEU', 'CAPIM', 'CAPINS', 'MATO', 'FOCO', 'ACUMULADO',
+  'ARBOVIROSE', 'NAO', 'MORA', 'LOCAL', 'LAJE', 'LODO'
+];

@@ -1,0 +1,34 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":1,
+    "params":{
+      "q":"*:*",
+      "d":"0.30",
+      "pt":"-8.04078183454,-34.898511283973",
+      "fq":"{!geofilt}",
+      "sfield":"localidade"}},
+  "response":{"numFound":2,"start":0,"docs":[
+      {
+        "id":"22056449",
+        "bairro":["AFLITOS"],
+        "logradouro":["AV  CONSELHEIRO ROSA E SILVA"],
+        "cep":[52050345],
+        "complemento":["NMERO 1002"],
+        "cadastro":["19/06/2021"],
+        "servico":["DENUNCIAS"],
+        "localidade":"-8.04078183454, -34.898511283973",
+        "observacao":["MATO MUITO ALTO AUMENTO DO NMERO DE MOSQUITOS E INSETOS NOS ARREDORES"],
+        "_version_":1719040145500405760},
+      {
+        "id":"22055472",
+        "bairro":["AFLITOS"],
+        "logradouro":["AV  CONSELHEIRO ROSA E SILVA"],
+        "cep":[52050345],
+        "complemento":["NO TEM NMERO A O TERRENO ENCONTRA-SE ABANDONADO"],
+        "cadastro":["17/06/2021"],
+        "servico":["DENUNCIAS"],
+        "localidade":"-8.04294609297, -34.897562004626",
+        "observacao":["MATOS GRANDES E POSSVEL FOCOS DE DENGUE"],
+        "_version_":1719040145504600064}]
+  }}

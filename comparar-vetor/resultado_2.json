@@ -1,0 +1,107 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*:*",
+      "d": "0.30",
+      "pt": "-8.02290924509,-34.911521296053",
+      "fl": "*,score",
+      "fq": "{!geofilt}",
+      "sfield": "localidade"
+    }
+  },
+  "response": {
+    "numFound": 6,
+    "start": 0,
+    "maxScore": 1.0,
+    "docs": [
+      {
+        "id": "22055131",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  ITAPICURU"],
+        "cep": [52210260],
+        "complemento": ["142B"],
+        "cadastro": ["16/06/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02107002177, -34.909855422152",
+        "observacao": [
+          "QUERIA Q VINHECE  UMA FISCALIZAO  PQ ESSA RUA TEM MUITA  GENTE Q EST COM CHICO GUNHA  PRINCIPALMENTE AQUI NA MINHA FAMLIA E TEM UMA CASA AQUI DE LAJE  Q EST VERDE DE LODO  E MUITA AGUA PARADA Q AGENTE ACHA Q O FOCO  DA DENGUE EST AQUI NESSA LAJE"
+        ],
+        "_version_": 1719040145547591681,
+        "score": 1.0
+      },
+      {
+        "id": "22094443",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  MACAMBE"],
+        "cep": [52210200],
+        "complemento": ["21"],
+        "cadastro": ["17/10/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02279039731, -34.910702177166",
+        "observacao": [
+          "ORIENTAR PESSOAS RESPONSVEIS POR IDOSO QUE MORA NO TRREO A NAO JOGAR LIXO NA DESCIDA A NOITE  POIS COM IMPACTO SE ROMPER E SE ESPALHAM PARA QUARTEIRES E GALERIAS  SUGERIR FAZER UMA LIXEIRA EVITANDO QUE ANIMAIS OU MORADORES DE RUA OS RASGE"
+        ],
+        "_version_": 1719040145547591682,
+        "score": 1.0
+      },
+      {
+        "id": "22056468",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  VALERIANO LOBO"],
+        "cep": [52210170],
+        "cadastro": ["19/06/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02290924509, -34.911521296053",
+        "observacao": [
+          "TERRENO FECHADO VIRANDO LIXAO IMPROVISADO PROPRIETRIO NAO MORA NO LOCAL POR BAIXO DOS CAPINS  MUITO LIXO ACUMULADO QUE ATRAI MUITOS VETORES EPIDEMIOLOGICOS  DENTRE ESSES  MOSQUITOS DA DENGUE ENTRE OUTROS ANIMAIS INDESEJVEIS TA UM HORROR"
+        ],
+        "_version_": 1719040145550737409,
+        "score": 1.0
+      },
+      {
+        "id": "22056567",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  VALERIANO LOBO"],
+        "cep": [52210170],
+        "cadastro": ["20/06/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02290924509, -34.911521296053",
+        "observacao": [
+          "TERRENO EST SE TRANSFORMANDO EM LIXAO POPULAR POIS CASA EST FECHADA INFELIZMENTE PROPRIETRIA NAO MORA NO LOCAL E PARENTES PROXIMOS NEGLIGENCIAM E NADA FAZEM PARA CONTACTA-LA VENTOUCHOVEU LIXO SE ESPALHA PELO BINARIO E SEGUE AS GALERIAS PRXIMAS"
+        ],
+        "_version_": 1719040145551785984,
+        "score": 1.0
+      },
+      {
+        "id": "22071588",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  VALERIANO LOBO"],
+        "cep": [52210170],
+        "cadastro": ["05/08/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02290924509, -34.911521296053",
+        "observacao": [
+          "TERRENO SEM MURO MAIS LEMBRA UMA BARREIRA QUE TEM SE TRANSFORMADO EM LIXAO POPULAR  PROPRIETRIA NAO MORA NO LOCAL NESSE ESPAO DE CAPINS ACUMULADOS A LIXOS NA BASE DA BARREIRA H UMA RACHADURA SURGIMENTO DE ESCORPIOBARATAS EM CASAS VIZINHAS"
+        ],
+        "_version_": 1719040145551785985,
+        "score": 1.0
+      },
+      {
+        "id": "22080507",
+        "bairro": ["ALTO JOSE DO PINHO"],
+        "logradouro": ["RUA  VALERIANO LOBO"],
+        "cep": [52210170],
+        "cadastro": ["29/08/2021"],
+        "servico": ["DENUNCIAS"],
+        "localidade": "-8.02290924509, -34.911521296053",
+        "observacao": [
+          "EMBORA ENLURB TENHA FEITO A REMOO PARCIAL DO LIXO COM O AUMENTO DO CAPIM E NEGLIGENCIA DOA PROPRIETRIOA EST SURGINDO NAS PROXIMIDADES ANIMAIS PECONHENTOS SUGESTO COLOQUEM PICHE INFELIZMENTE A NEGLIGENCIA  CLARA PELOS RESPONSVEIS SOS"
+        ],
+        "_version_": 1719040145552834560,
+        "score": 1.0
+      }
+    ]
+  }
+}
