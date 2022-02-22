@@ -26,21 +26,56 @@ class Denuncia
      *
      * @ORM\Column(name="bairro", type="string", length=200, nullable=true)
      */
-    private $bairro = 'null';
+    private $bairro = null;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="slug", type="string", length=200, nullable=false, options={"fixed"=true})
+     * @ORM\Column(name="logradouro", type="string", length=200, nullable=true)
      */
-    private $slug;
+    private $logradouro = null;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="content", type="text", nullable=false)
+     * @ORM\Column(name="complemento", type="string", length=200,nullable=true)
      */
-    private $content;
+    private $complemento = null;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="cep", type="integer", nullable=true)
+     */
+    private $cep = null;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="cadastro", type="string", length=10,nullable=true)
+     */
+    private $cadastro = null;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="latitu", type="float", nullable=true)
+     */
+    private $latitude = null;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="longitude", type="float", nullable=true)
+     */
+    private $longitude = null;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observacao", type="text", nullable=true)
+     */
+    private $observacao = null;
 
 
     /**
@@ -60,7 +95,7 @@ class Denuncia
      *
      * @return Denuncia
      */
-    public function setbairro($bairro = null)
+    public function setBairro($bairro = null)
     {
         $this->bairro = $bairro;
 
@@ -72,56 +107,177 @@ class Denuncia
      *
      * @return string|null
      */
-    public function getbairro()
+    public function getBairro()
     {
         return $this->bairro;
     }
 
     /**
-     * Set slug.
+     * Set logradouro.
      *
-     * @param string $slug
+     * @param string $logradouro
      *
      * @return Denuncia
      */
-    public function setSlug($slug)
+    public function setLogradouro($logradouro)
     {
-        $this->slug = $slug;
+        $this->logradouro = $logradouro;
 
         return $this;
     }
 
     /**
-     * Get slug.
+     * Get logradouro.
      *
      * @return string
      */
-    public function getSlug()
+    public function getLogradouro()
     {
-        return $this->slug;
+        return $this->logradouro;
     }
 
     /**
-     * Set content.
+     * Set complemento.
      *
-     * @param string $content
+     * @param string $complemento
      *
      * @return Denuncia
      */
-    public function setContent($content)
+    public function setComplemento($complemento)
     {
-        $this->content = $content;
+        $this->complemento = $complemento;
 
         return $this;
     }
 
     /**
-     * Get content.
+     * Get complemento.
      *
      * @return string
      */
-    public function getContent()
+    public function getComplemento()
     {
-        return $this->content;
+        return $this->complemento;
+    }
+
+    /**
+     * Set cep.
+     *
+     * @param integer $cep
+     *
+     * @return Denuncia
+     */
+    public function setCep($cep)
+    {
+        $this->cep = $cep;
+
+        return $this;
+    }
+
+    /**
+     * Get cep.
+     *
+     * @return integer
+     */
+    public function getCep()
+    {
+        return $this->cep;
+    }
+
+    /**
+     * Set cadastro.
+     *
+     * @param string $cadastro
+     *
+     * @return Denuncia
+     */
+    public function setCadastro($cadastro)
+    {
+        $this->cadastro = $cadastro;
+
+        return $this;
+    }
+
+    /**
+     * Get cadastro.
+     *
+     * @return string
+     */
+    public function getCadastro()
+    {
+        return $this->cadastro;
+    }
+    
+    /**
+     * Set latitude.
+     *
+     * @param float $latitude
+     *
+     * @return Denuncia
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude = $latitude;
+
+        return $this;
+    }
+
+    /**
+     * Get latitude.
+     *
+     * @return float
+     */
+    public function getLatitude()
+    {
+        return $this->latitude;
+    }
+
+    /**
+     * Set longitude.
+     *
+     * @param float $longitude
+     *
+     * @return Denuncia
+     */
+    public function setLongitude($longitude)
+    {
+        $this->longitude = $longitude;
+
+        return $this;
+    }
+
+    /**
+     * Get longitude.
+     *
+     * @return float
+     */
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+    
+
+    /**
+     * Set observacao.
+     *
+     * @param string $observacao
+     *
+     * @return Denuncia
+     */
+    public function setObservacao($observacao)
+    {
+        $this->observacao = $observacao;
+
+        return $this;
+    }
+
+    /**
+     * Get observacao.
+     *
+     * @return string
+     */
+    public function getObservacao()
+    {
+        return $this->observacao;
     }
 }
