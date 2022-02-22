@@ -59,7 +59,7 @@ class Denuncia
     /**
      * @var float
      *
-     * @ORM\Column(name="latitu", type="float", nullable=true)
+     * @ORM\Column(name="latitude", type="float", nullable=true)
      */
     private $latitude = null;
 
@@ -77,6 +77,12 @@ class Denuncia
      */
     private $observacao = null;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="servico", type="string", length="50", nullable=true)
+     */
+    private $servico = null;
 
     /**
      * Get id.
@@ -86,6 +92,20 @@ class Denuncia
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Set ID.
+     *
+     * @param int $id
+     *
+     * @return Denuncia
+     */
+    public function setId($id = null)
+    {
+        $this->id = $id;
+
+        return $this;
     }
 
     /**
@@ -256,7 +276,6 @@ class Denuncia
         return $this->longitude;
     }
     
-
     /**
      * Set observacao.
      *
@@ -279,5 +298,29 @@ class Denuncia
     public function getObservacao()
     {
         return $this->observacao;
+    }
+    
+    /**
+     * Set servico.
+     *
+     * @param string $servico
+     *
+     * @return Denuncia
+     */
+    public function setServico($servico)
+    {
+        $this->servico = $servico;
+
+        return $this;
+    }
+
+    /**
+     * Get servico.
+     *
+     * @return string
+     */
+    public function getServico()
+    {
+        return $this->servico;
     }
 }
